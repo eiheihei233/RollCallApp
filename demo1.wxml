@@ -1,0 +1,2 @@
+<!--pages/demo1/demo1.wxml-->
+<button bindtap="chooseExcel">解析上传Excel表格</button>
