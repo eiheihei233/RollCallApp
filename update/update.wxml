@@ -1,0 +1,5 @@
+<!--pages/update/update.wxml-->
+<view class="margin-top-sm text-content">
+				<button class="cu-btn block line-white lg" bindtap="chooseExcel" style="width: 100rpx;">
+	<text class="cuIcon-upload"></text>上传excel文件</button>
+			</view>

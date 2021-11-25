@@ -1,0 +1,46 @@
+/* pages/tiaozhuan/tiaozhuan.wxss */
+
+
+.firstDiv{
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.view{
+    margin-top: 150rpx;
+    box-shadow: 6rpx 6rpx 6rpx 6rpx rgba(85, 85, 85, 0.10);
+    border: 3rpx solid #BBBBBE;
+   border-radius: 10rpx;   
+}
+
+.button1{
+    
+    height: 150rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+    margin-right: 30rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.usingOp{
+    margin-left: 100rpx;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+
+.gifwave{
+    position: absolute;
+    width: 200%;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    mix-blend-mode: screen;  
+    height: 300rpx;  
+}

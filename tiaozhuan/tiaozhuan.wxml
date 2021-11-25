@@ -1,0 +1,27 @@
+<!--pages/tiaozhuan/tiaozhuan.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">功能选择</view>
+</cu-custom>
+
+<view class=" bg-gradual-blue firstDiv view"> 
+        <view class="button1" bindtap="chooseExcel">
+          <text class="usingOp" space="ensp">老师点名 </text>
+            <image class="option" src="../../images/main-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
+        </view>        
+</view>
+<view class=" bg-gradual-blue firstDiv view"> 
+        <view class="button1" bindtap="chooseExcel_1">
+          <text class="usingOp" space="ensp">学生点名 </text>
+            <image class="option" src="../../images/main-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
+        </view>        
+</view>
+
+<view class=" bg-gradual-blue firstDiv view"> 
+        <view class="button1" bindtap="chooseExcel_1">
+          <text class="usingOp" space="ensp">使用说明 </text>
+            <image class="option" src="../../images/main-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
+        </view>        
+</view>
+
+<image class="gifwave" src="/images/wave.gif" mode="scaleToFill" ></image> 
